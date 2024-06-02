@@ -1,0 +1,57 @@
+.rate {
+  background-color: rgb(79, 79, 79);
+  max-height: 450px;
+  display: grid;
+  grid-template-rows: 1fr 50% 10% 1fr;
+}
+.info {
+      border: 0.3px solid white;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.cost__name {
+      color: white;
+      font-size: 25px;
+      font-weight: 700;
+      border: 0.3px solid white;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.cost__rate {
+      justify-content: space-around;
+      padding: 0 20px;
+      font-size: 70px;
+      font-weight: 700;
+      color: white;
+      border: 0.3px solid white;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.rate__box {
+      font-weight: 400;
+      font-size: medium;
+  }
+.rate__speed {
+      color: rgb(85, 84, 84);
+      font-size: large;
+      font-weight: 600;
+      background-color: rgb(238, 238, 238);
+  }
+.rate__info {
+      padding-right: 40px;
+      padding-left: 40px;
+      color: rgb(95, 95, 95);
+      font-size: large;
+      font-weight: 600;
+      background-color: rgb(231, 231, 231);
+  }
+.larger {
+  height: 540px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
